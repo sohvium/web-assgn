@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="2ndcss.css">
+
+</head>
+<body>
+    <nav>
+       <img src="Navbar.png"> 
+    </nav>
+    <div class="btn">
+        Home / <button id="ivf">IVF Success Rate Calculator</button> / <button id="bck">Back</button>
+    </div>
+    <h3 class="txt">which age range apllies to you</h3>
+
+    <div class="a">
+        <form class="checkbox-grid">
+            <label><input type="radio" >30</label>
+            <label><input type="radio" > between 30-34</label>
+            <label><input type="radio" > between 35-37</label>
+            <label><input type="radio" > between 38-40</label>
+            <label><input type="radio" > between 41-43</label>
+            <label><input type="radio"> above 44</label>
+          </form>
+    </div>
+    <div class="b">
+        <h3 class="txtt">Number IVF cycles ?</h3>
+        <img src="Group 1000002421.png">
+    </div>
+    <div class="c">
+        <h3 class="tt">Have you undergone these procedures before ?</h3>
+        <div class="form-group">
+            <div class="field">
+              <span>ICSI Procedure:</span>
+              <label><input type="radio" name="icsi" value="yes"> Yes</label>
+              <label><input type="radio" name="icsi" value="no"> No</label>
+            </div>
+            <div class="field">
+              <span>PGT Testing:</span>
+              <label><input type="radio" name="pgt" value="yes"> Yes</label>
+              <label><input type="radio" name="pgt" value="no"> No</label>
+            </div>
+          </div>
+    </div>
+    <div class="d">
+       <h3> do you have any of these medical condition ?</h3>
+       <form class="checkbox-grid1">
+        <label><input type="radio" >PCOS</label>
+        <label><input type="radio" >Endiometrisis</label>
+        <label><input type="radio" > Low ovarion Reserve</label>
+        <label><input type="radio" > Male Factor Infertility</label>
+        </form>
+    </div>
+    <button class="cal">Calculate</button>
+    <script>
+        document.getElementById('bck').addEventListener('click', function() {
+            window.open('html1.html','_blank'); 
+        });
+    </script>
+</html>
